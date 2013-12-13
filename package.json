@@ -2,7 +2,7 @@
   "name": "sails-generate-gruntfile",
   "version": "0.0.0",
   "description": "The Gruntfile.js bundled with new Sails apps.",
-  "main": "Gruntfile.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
