@@ -454,9 +454,9 @@ module.exports = function (grunt) {
     'sails-linker:devJs',
     'sails-linker:devStyles',
     'sails-linker:devTpl',
-    'sails-linker:devJsJADE',
-    'sails-linker:devStylesJADE',
-    'sails-linker:devTplJADE'
+    // 'sails-linker:devJsJADE',
+    // 'sails-linker:devStylesJADE',
+    // 'sails-linker:devTplJADE'
   ]);
 
 
@@ -482,9 +482,9 @@ module.exports = function (grunt) {
     'sails-linker:prodJs',
     'sails-linker:prodStyles',
     'sails-linker:devTpl',
-    'sails-linker:prodJsJADE',
-    'sails-linker:prodStylesJADE',
-    'sails-linker:devTplJADE'
+    // 'sails-linker:prodJsJADE',
+    // 'sails-linker:prodStylesJADE',
+    // 'sails-linker:devTplJADE'
   ]);
 
   // When API files are changed:
