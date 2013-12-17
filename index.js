@@ -1,10 +1,4 @@
-/**
- * Module dependencies
- */
 var path = require('path');
-
-
-
 
 /**
  * Generator for `Gruntfile.js`
@@ -12,9 +6,6 @@ var path = require('path');
  * @option {String} templateFilePath		[path to `Gruntfile.js` template]
  */
 module.exports = {
-
-
-
 	/**
 	 * @param  {[type]} options  
 	 * @param  {[type]} sails    [our instance of `sails`]
@@ -30,11 +21,5 @@ module.exports = {
 		
 
 		return handlers.success(options);
-	},
-
-
-	// TODO: custom-render stuff using options + the Gruntfile template
-	// (e.g. only include coffeescript task if `options.coffeescript` is an object)
-	// render: function (options, handlers) {}
-
+	}
 };
