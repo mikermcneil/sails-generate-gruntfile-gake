@@ -19,5 +19,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mikermcneil/sails-generate-gruntfile/issues"
+  },
+  "dependencies": {
+    "gake": "0.0.1"
   }
 }
