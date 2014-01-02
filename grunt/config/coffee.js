@@ -1,7 +1,9 @@
 module.exports = {
   dev: {
     options: {
-      bare: true
+      bare: true,
+	  sourceMap: true,
+	  sourceRoot: './'
     },
     files: [
       {

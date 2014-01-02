@@ -4,7 +4,7 @@ module.exports = {
       {
         expand: true,
         cwd: './assets',
-        src: ['**/*.!(coffee)'],
+        src: ['**/*'],
         dest: '.tmp/public'
       }
     ]
